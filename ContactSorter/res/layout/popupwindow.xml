@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="This app lists your contacts in reverse order of contact ID.
+This usually puts the most recently added contects at the top.
+However since the stock anddroid contacts app doesn&apos;t save the creation date of a
+contact, there is no absolute way of sorting contacts by date added.
+You will notice that some contacts are out of place, this is because the
+ID numbers sometimes changed by the android system. Enjoy!" />
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dismiss" />
+
+
+
+
+
+
+</LinearLayout>
